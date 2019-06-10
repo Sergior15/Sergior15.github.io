@@ -27,4 +27,15 @@ nav ul{
     width: 50%;
     
 }
+#MySkills{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.25rem;
+}
 
+#MyProjects {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
