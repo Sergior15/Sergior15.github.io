@@ -4,3 +4,13 @@ nav ul{
     justify-content: space-around;
 
 }
+.Intro h1{
+    text-align: end;
+    font-size: 4rem;
+    color: antiquewhite;
+}
+.Intro h2{
+    text-align: end;
+    font-size: 3rem;
+    color: antiquewhite;
+}

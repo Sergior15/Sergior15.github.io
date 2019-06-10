@@ -1,5 +1,4 @@
 *{
-    background-color: lightblue;
 }
 .Intro{
     background-image: url(./Nature.jpg);
@@ -13,6 +12,7 @@ nav{
 }
 nav ul{
     background-color: #333;
+    color: aquamarine;
 }
 .toplist{
     font-family: Georgia, 'Times New Roman', Times, serif;
