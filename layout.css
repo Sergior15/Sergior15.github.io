@@ -1,7 +1,7 @@
 nav ul{
     display:flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-evenly;
 
 }
 .Intro h1{
@@ -14,3 +14,17 @@ nav ul{
     font-size: 3rem;
     color: antiquewhite;
 }
+#AboutMe{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    font-size: 1.25rem;
+}
+
+#AboutMe p{
+    
+    width: 50%;
+    
+}
+

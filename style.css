@@ -1,4 +1,5 @@
 *{
+    
 }
 .Intro{
     background-image: url(./Nature.jpg);
@@ -8,12 +9,31 @@
 nav{
     background-color: #333;
     padding: 20px;
+    text-decoration: none;
     
 }
 nav ul{
     background-color: #333;
-    color: aquamarine;
+    color: #333;
 }
-.toplist{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#AboutMe{
+    color: blueviolet;
+    font-size: 1rem;
+    background-color: antiquewhite;
+}
+a{
+    color: antiquewhite;
+    text-decoration: none;
+    font-size: 1.25rem;
+}
+#AboutMe h2{
+    text-decoration: underline;
+}
+.mepic{
+    display: flex;
+    flex-direction: row;
+    background-color: antiquewhite;
+    justify-content: space-around;
+    padding: 15px;
+    height: 270px;
 }
