@@ -39,3 +39,20 @@ nav ul{
     flex-direction: row;
     justify-content: space-between;
 }
+article h4{
+    display: flex;
+    flex-direction: column;
+
+}
+#ContactMe h3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#ContactMe ul{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}    
+    
