@@ -1,20 +1,25 @@
 *{
-    
+  margin: 0px;
 }
 .Intro{
     background-image: url(./Nature.jpg);
     padding: 250px;
-    margin: 0px;
+    margin: auto;
 }
 nav{
     background-color: #333;
     padding: 20px;
     text-decoration: none;
-    
+    display: block;
 }
 nav ul{
     background-color: #333;
+    text-decoration: none;
     color: #333;
+}
+
+nav ul li:hover {
+    background-color: black;
 }
 #AboutMe{
     color: blueviolet;
@@ -28,6 +33,7 @@ a{
 }
 #AboutMe h2{
     text-decoration: underline;
+    padding-bottom: 20px;
 }
 .mepic{
     display: flex;
@@ -41,11 +47,14 @@ a{
 #MySkills{
     color: blueviolet;
     background-color: antiquewhite;
+    padding-bottom: 15px;
+    padding-left: 40px;
+    padding-right: 40px;
 }
 #MySkills h2{
     text-decoration: underline;
     color: blueviolet;
-    
+    padding: 20px;
 }
 .projhead{
     display: flex;
@@ -55,12 +64,24 @@ a{
     text-decoration: underline;
     font-size: 1.25rem;
     background-color: antiquewhite;
+    padding-bottom: 25px;
 }
 #MyProjects{
     background-color: antiquewhite;
     color: blueviolet;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 25px;
 }
 #ContactMe{
     background-color: #333;
     color: antiquewhite;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#ContactMe ul li{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
 }
