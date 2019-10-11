@@ -7,12 +7,22 @@ nav ul{
 .Intro h1{
     text-align: end;
     font-size: 4rem;
-    color: antiquewhite;
+    color: black;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 White,
+		-1px 1px 0 white,
+		1px 1px 0 white;
 }
 .Intro h2{
     text-align: end;
     font-size: 3rem;
-    color: antiquewhite;
+    color: black;
+    text-shadow:
+		-1px -1px 0 white,
+		1px -1px 0 White,
+		-1px 1px 0 white,
+		1px 1px 0 white;
 }
 #AboutMe{
     display: flex;
